@@ -32,7 +32,7 @@ export default {
     }
   },
   created(){
-    this.target = new Date(2023, 8, 26, 0, 0, 0, 0);
+    this.target = new Date(2024, 0, 7, 15, 0, 0, 0);
 
     setInterval(() => {
       this.time = this.target.getTime() - new Date().getTime();
